@@ -6,15 +6,15 @@
 			"command": "host start",
 			"problemMatcher": "$func-watch",
 			"isBackground": true,
-			"dependsOn": "npm install",
+			"dependsOn": "pnpm install",
 			"options": {
 				"cwd": "${workspaceFolder}/api"
 			}
 		},
 		{
 			"type": "shell",
-			"label": "npm install",
-			"command": "npm install",
+			"label": "pnpm install",
+			"command": "pnpm install",
 			"options": {
 				"cwd": "${workspaceFolder}/api"
 			}
